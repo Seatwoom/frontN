@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lab2</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      td {
+        border: 1px solid black;
+        width: 12.5%;
+        height: 50px;
+        text-align: center;
+        position: relative;
+      }
+      .block-a {
+        height: 100px;
+      }
+      .block-b {
+        width: 12.5%;
+      }
+      .block-c {
+        width: 6.75%;
+      }
+      tr:nth-child(1) {
+        background-color: #998f8f;
+        color: #050505;
+      }
+      tr:nth-child(2) {
+        background-color: #f5f599;
+        color: #050505;
+      }
+
+      tr:nth-child(1):hover {
+        background-color: #050505;
+        color: #998f8f;
+      }
+      tr:nth-child(2):hover {
+        background-color: #050505;
+        color: #f5f599;
+      }
+    </style>
+  </head>
+  <body>
+    <table border="1">
+      <tr>
+        <td class="block-a" colspan="4" rowspan="2">Пащенко</td>
+        <td colspan="4">Олександр</td>
+      </tr>
+      <tr>
+        <td class="block-b" rowspan="2" colspan="2">ІО-22</td>
+        <td class="block-c" rowspan="3">2 лаба</td>
+        <td class="block-c" rowspan="3">9 варіант</td>
+      </tr>
+      <tr>
+        <td colspan="2"></td>
+        <td colspan="2"></td>
+      </tr>
+      <tr>
+        <td colspan="2"></td>
+        <td colspan="2"></td>
+        <td colspan="2"></td>
+      </tr>
+    </table>
+    <div class="flag-container">
+      <div class="flag position-method"></div>
+      <div class="flag transform-method"></div>
+    </div>
+  </body>
+</html>
