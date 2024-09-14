@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.block {
+  position: absolute;
+  font-size: 2em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.green {
+  background-color: green;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdIuNnpR1miZv0E6OPTbTB9c27AssN7arVg_ai3Z8qaYK8TnznR6lv-Bno1vUFgALwxqs&usqp=CAU");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  left: 0;
+  top: 0;
+  width: 33%;
+  height: 90%;
+}
+
+.blue {
+  background-color: blue;
+  left: 33%;
+  top: 0;
+  width: 66%;
+  height: 10%;
+}
+
+.yellow {
+  background-color: yellow;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLifc5AW1xitz5C39VmaFhI1YXc7vENMP8Qg&s");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  left: 33%;
+  top: 10%;
+  width: 33%;
+  height: 80%;
+}
+
+.purple {
+  background-color: purple;
+  left: 66%;
+  top: 10%;
+  width: 33%;
+  height: 90%;
+}
+
+.peach {
+  background-color: peachpuff;
+  left: 0;
+  top: 90%;
+  width: 66%;
+  height: 10%;
+}
