@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Image = () => {
-  const [imageSize, setImageSize] = useState(500); // Increased initial size
+  const [imageSize, setImageSize] = useState(500); 
 
   const increaseSize = () => setImageSize(imageSize + 50);
   const decreaseSize = () => {
